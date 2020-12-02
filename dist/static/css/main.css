@@ -1,0 +1,214 @@
+/* 这个文件里写的是全局样式,在各个页面都生效 */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  user-select: text;
+  font-size: 14px;
+  font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+html {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+body, html, .page {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+h1, h2, h3, h4, h5, input {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color: initial;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
+  margin:0;
+  padding:0;
+}
+
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.w1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.h20 {
+  height: 20px;
+}
+
+.h30 {
+  height: 30px;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.pc .no-pc, .phone .no-phone {
+  display: none;
+}
+
+.so {
+  position: absolute;
+}
+
+.phone .header1 {
+  display: none;
+}
+
+.phone .so-0 {
+  margin: 0;
+}
+
+.phone .home {
+  background-position: 0 -1%;
+  background-size: 200% auto;
+}
+
+.phone .so-3 {
+  width: 160px;
+  height: 160px;
+  background-size: 100% 100%;
+}
+
+.phone .so-0 {
+  width: 100%;
+  height: 64vw;
+}
+
+.phone .so-2 {
+  left: auto;
+  right: 25px;
+  height: 35px;
+  top: 10px;
+}
+
+.phone .so-1 {
+  left: 46vw;
+  height: 7vw;
+  top: 18vw;
+}
+
+.phone .so-7 {
+  line-height: 10vw;
+  left: 54vw;
+  font-size: 20px;
+  top: 17vw;
+}
+
+.phone .so-4 {
+  left: 46vw;
+  font-size: 12px;
+  line-height: 18px;
+  width: 50vw;
+  top: 27vw;
+}
+
+.phone .so-5 {
+  left: 46vw;
+  width: 36vw;
+  top: 38vw;
+}
+
+.phone .so-6 {
+  left: 46vw;
+  font-size: 14px;
+  line-height: 23px;
+  top: 41vw;
+}
+
+.phone .w1000, .phone .left-right {
+  width: 100%;
+}
+
+.phone .left-right {
+  margin-top: 0;
+}
+
+.phone .left-right .left {
+  position: relative;
+  width: 96%;
+  margin: 0 auto;
+  float: none;
+}
+
+.phone .left-right .left h2 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.phone .left-right .left p {
+  margin-top: 0;
+}
+
+.phone .left-right .right {
+  width: 100%;
+}
+.phone .left-right .video-box {
+  width: 98%;
+  margin: 0 auto;
+  height: 60vw;
+  margin-top: 10px;
+}
+.phone .people-show .user-image {
+  width: 15vw;
+  height: 15vw;
+  left: 1vw;
+  top: 4vw;
+}
+.phone .people-show li {
+  background-position: 19vw 0;
+  padding: 10px 0;
+  padding-left: 29vw;
+  width: 68vw;
+}
+
+.phone .people-show li h2 {
+  height: auto;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+
+.phone .people-show li p {
+  font-size: 14px;
+  line-height: 22px;
+  text-indent: 2em;
+  margin-top: 5px;
+}
+.phone .h60 {
+  height: 0;
+}

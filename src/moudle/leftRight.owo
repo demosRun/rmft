@@ -1,0 +1,47 @@
+<template lang="pug">
+.left-right.clear
+  .left.fl
+    h2 编者按
+    p 刘老庄镇古西村，地处两市三县交汇处，地理位置偏僻，曾是一个村集体负债11万的贫困村。变化发生在2018年。古西村于当年底进入淮阴区低收入村脱贫摘帽的第一批队，2019年底成功跃升“三星村”。在古西村第一书记孙家波看来，着重发展特色产业、灵活发挥资源优势是一切向好变化的根基和源泉。未来如何让扶贫产业落地生根，实现可持续性发展，是他工作的重中之重。
+  .right.fr
+    .video-box
+    p 产业支撑、强基固本，化‘输血’为‘造血’
+</template>
+
+
+<style lang="less">
+.left-right {
+  width: 1000px;
+  height: 380px;
+  position: relative;
+}
+.video-box {
+  width: 600px;
+  height: 340px;
+  background-color: black;
+  box-shadow: 1px 2px 4px #312929;
+}
+.left {
+  width: 380px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  h2 {
+    font-size: 30px;
+    color: #333333;
+    line-height: 50px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    text-indent: 2em;
+    margin-top: 10px;
+    color: black;
+  }
+}
+.right {
+  text-align: center;
+  line-height: 30px;
+  color: #282828;
+}
+</style>
